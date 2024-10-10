@@ -45,6 +45,10 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "Aspose.Words": {
+              "target": "Package",
+              "version": "[24.9.0, )"
+            },
             "ClosedXML": {
               "target": "Package",
               "version": "[0.102.3, )"
@@ -57,9 +61,13 @@
               "target": "Package",
               "version": "[4.7.1.1, )"
             },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[6.4.0, )"
+              "version": "[6.8.1, )"
             }
           },
           "imports": [

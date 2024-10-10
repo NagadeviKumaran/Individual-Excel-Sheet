@@ -8,9 +8,114 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "formData",
-        "Type": "ExcelForm.Model.FormDataModel",
-        "IsRequired": true
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "FatherName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "DOB",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "AadharNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MobileNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MaritalStatus",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Pan",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PresentAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "PermanentAddress",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "appointmentDate",
+        "Type": "System.DateTime",
+        "IsRequired": false
+      },
+      {
+        "Name": "dispensaryPreferences",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "AccountNo",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BankName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "BranchName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "IfscCode",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Nominees",
+        "Type": "System.Collections.Generic.List\u00601[[ExcelForm.Model.NomineeModel, ExcelForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "nomineeFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "FamilyDetails",
+        "Type": "System.Collections.Generic.List\u00601[[ExcelForm.Model.FamilyDetailModel, ExcelForm, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "familyFile",
+        "Type": "Microsoft.AspNetCore.Http.IFormFile",
+        "IsRequired": false
+      },
+      {
+        "Name": "existingUAN",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "existingIPN",
+        "Type": "System.Int32",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

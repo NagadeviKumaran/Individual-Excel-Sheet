@@ -1,14 +1,9 @@
+using DocumentFormat.OpenXml.Office2016.Drawing.ChartDrawing;
+using Microsoft.AspNetCore.Http.Features;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddCors(options =>
-{
-    options.AddPolicy("MyPolicy", builder =>
-    builder.AllowAnyOrigin()
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    );
-});
 
 builder.Services.AddCors(options =>
 {
@@ -20,6 +15,9 @@ builder.Services.AddCors(options =>
                    .AllowAnyMethod();
         });
 });
+
+
+
 
 
 builder.Services.AddControllers();
@@ -38,13 +36,15 @@ if (app.Environment.IsDevelopment())
 
 app.UseHttpsRedirection();
 
-app.UseCors("MyPolicy");
-
 app.UseCors("AllowAll");
+
+app.UseStaticFiles(); // This should be present to serve static files
+
 
 
 app.UseAuthorization();
 
 app.MapControllers();
+
 
 app.Run();

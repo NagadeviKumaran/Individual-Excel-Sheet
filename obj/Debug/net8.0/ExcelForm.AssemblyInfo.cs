@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ExcelForm")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d82e0f4472c2955385b26b062fda584ceebd674f")]
 [assembly: System.Reflection.AssemblyProductAttribute("ExcelForm")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ExcelForm")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
